@@ -1,0 +1,241 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.contenedor{
+  width: 95%;
+  margin: auto;
+}
+
+
+header {
+  padding: 20px 0 ;
+}
+
+header .contenedor {
+  padding-right: 20px;
+  font-size: 30px;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;    
+}
+
+header .Logotipo{
+  background-position: center center;
+}
+
+header nav a {
+  color: black;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+@media screen and (max-width:500px) {
+  header .contenedor {
+      font-size: 20px;
+  }
+
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+
+/*-----------------Top Gun---------------------*/
+
+.peliculas {
+  font-size: 10px;
+  min-height: 500px;
+  color: black;
+  background: url(./Imagenes/TopGun.jpg);
+  background-position: center center;
+  background-size: cover;
+
+  margin-bottom: 3.12em;
+  display: flex;
+  align-items: center;
+}
+
+
+.peliculas .titulo {
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.peliculas .boton  {
+  text-decoration: none;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  border-radius: 0.31em;
+  padding: 0.93em 1.87em;
+  color: white;
+  margin-right: 1.25em;
+  cursor: pointer;
+  transition: .3s ease all;
+  font-size: 15px;
+}
+
+.peliculas .boton i {
+  margin-right: 1.25em;
+}
+/*-------------Jurassic*/
+
+.pelicula {
+  font-size: 10px;
+  min-height: 500px;
+  color: white;
+  background: url(./Imagenes/Jurassick\ World.jpg);
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 3.12em;
+  display: flex;
+  align-items: center;
+}
+
+
+.pelicula .titulo {
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.pelicula .boton  {
+  text-decoration: none;
+  background: rgba(255, 253, 253, 0.5);
+  border: none;
+  border-radius: 0.31em;
+  padding: 0.93em 1.87em;
+  color: white;
+  margin-right: 1.25em;
+  cursor: pointer;
+  transition: .3s ease all;
+  font-size: 15px;
+}
+
+.pelicula .boton i {
+  margin-right: 1.25em;
+}
+
+/*---- Dragon Ball*/
+.dragonball {
+  font-size: 10px;
+  min-height: 500px;
+  color: black;
+  background: url(./Imagenes/dragonball2.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3.12em;
+  display: flex;
+  align-items: center;
+}
+
+
+.dragonball .titulo {
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.dragonball .boton  {
+  text-decoration: none;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  border-radius: 0.31em;
+  padding: 0.93em 1.87em;
+  color: white;
+  margin-right: 1.25em;
+  cursor: pointer;
+  transition: .3s ease all;
+  font-size: 15px;
+}
+
+.dragonball .boton i {
+  margin-right: 1.25em;
+}
+/** Spider Man--*/
+
+.sp {
+  font-size: 10px;
+  min-height: 500px;
+  color: white;
+  background: url(./Imagenes/spiderman2.jpg);
+  background-position:center;
+  background-size:cover;
+  margin-bottom: 3.12em;
+  display: flex;
+  align-items: center;
+}
+
+
+.sp .titulo {
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.sp .boton  {
+  text-decoration: none;
+  background: rgba(255, 253, 253, 0.5);
+  border: none;
+  border-radius: 0.31em;
+  padding: 0.93em 1.87em;
+  color: white;
+  margin-right: 1.25em;
+  cursor: pointer;
+  transition: .3s ease all;
+  font-size: 15px;
+}
+
+.sp .boton i {
+  margin-right: 1.25em;
+}
+
+/*----Your Name------*/
+
+.your {
+  font-size: 10px;
+  min-height: 500px;
+  color: white;
+  background: url(./Imagenes/your\ name.jpg);
+  background-position:center;
+  background-size:cover;
+  margin-bottom: 3.12em;
+  display: flex;
+  align-items: center;
+}
+
+
+.your .titulo {
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.your .boton  {
+  text-decoration: none;
+  background: rgba(255, 253, 253, 0.5);
+  border: none;
+  border-radius: 0.31em;
+  padding: 0.93em 1.87em;
+  color: white;
+  margin-right: 1.25em;
+  cursor: pointer;
+  transition: .3s ease all;
+  font-size: 15px;
+}
+
+.your .boton i {
+  margin-right: 1.25em;
+}
